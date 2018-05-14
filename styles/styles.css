@@ -137,3 +137,8 @@ input {
     background: #DDDDDD;
     text-align: center;
 }
+
+.small-under {
+    font-size: 9pt;
+    vertical-align: sub;
+}

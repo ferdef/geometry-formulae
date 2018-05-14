@@ -15,14 +15,14 @@
     <div id="formulae">
         <table class="center">
             <tr>
+                <td colspan="6" class="title-row">AREAS DE POLÍGONOS</td>
+            </tr>
+            <tr>
                 <th>Nombre</th>
                 <th>Imagen</th>
                 <th>Fórmula</th>
                 <th colspan="2">Datos</th>
                 <th>Resultado</th>
-            </tr>
-            <tr>
-                <td colspan="6" class="title-row">AREAS DE POLÍGONOS</td>
             </tr>
             <tr>
                 <td>Círculo</td>
@@ -120,6 +120,36 @@
             </tr>
             <tr>
                 <td colspan="6" class="title-row">AREAS DE POLIEDROS</td>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Fórmula</th>
+                <th colspan="2">Datos</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Prisma</td>
+                <td><img src="assets/area_prisma.png" alt="Prisma"></td>
+                <td>A = A<span class="small-under">bases</span> x A<span class="small-under">caras</span></td>
+                <td>
+                    <div>
+                        <p>Perímetro : </p>
+                        <input id="pa-perimeter" type="text" placeholder="Perímetro">
+                    </div>
+                    <div>
+                        <p>Apotema : </p>
+                        <input id="pa-apotema" type="text" placeholder="Apotema">
+                    </div>
+                    <div>
+                        <p>Altura : </p>
+                        <input id="ra-height" type="text" placeholder="Altura">
+                    </div>
+                </td>
+                <td><button id="cs-calc" data-calc="prismArea"><span>Calcular </span></button></td>
+                <td>
+                    <p id="prisma-answer">0</p>
+                </td>
             </tr>
         </table>
     </div>
