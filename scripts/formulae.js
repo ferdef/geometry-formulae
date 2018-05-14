@@ -21,5 +21,25 @@ function squareArea() {
     } else {
         alert("Introduce los valores necesarios para el cálculo");
     }
+}
 
+function rectangleArea() {
+    const base = document.querySelector("#ra-base").value;
+    const height = document.querySelector("#ra-height").value;
+    const result = document.querySelector("#ra-answer");
+    if (base && height) {
+        result.innerHTML = base * height;
+    } else {
+        alert("Introduce los valores necesarios para el cálculo");
+    }
+}
+
+function circleArea() {
+    const radius = document.querySelector("#ca-radius").value;
+    const result = document.querySelector("#ca-answer");
+    if (radius) {
+        result.innerHTML = (Math.PI * (radius * radius)).toFixed(2);
+    } else {
+        alert("Introduce los valores necesarios para el cálculo");
+    }
 }
