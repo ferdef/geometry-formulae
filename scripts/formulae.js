@@ -54,3 +54,14 @@ function triangleArea() {
         alert("Introduce los valores necesarios para el cálculo");
     }
 }
+
+function poligonArea() {
+    const perimeter = document.querySelector("#pa-perimeter").value;
+    const apotema = document.querySelector("#pa-apotema").value;
+    const result = document.querySelector("#pa-answer");
+    if (perimter && apotema) {
+        result.innerHTML = ((base * height) / 2).toFixed(2);
+    } else {
+        alert("Introduce los valores necesarios para el cálculo");
+    }
+}

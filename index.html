@@ -70,7 +70,7 @@
             </tr>
             <tr>
                 <td>Triángulo</td>
-                <td><img src="assets/area_triangulo.png" alt="Rectángulo"></td>
+                <td><img src="assets/area_triangulo.png" alt="Triángulo"></td>
                 <td>
                     <div class="formula">A = <div class="formula-right">
                         <div class="formula-top">b x h</div>
@@ -90,6 +90,30 @@
                 <td><button id="ta-calc" data-calc="triangleArea"><span>Calcular </span></button></td>
                 <td>
                     <p id="ta-answer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Poligono Regular</td>
+                <td><img src="assets/area_poligono.png" alt="Polígono Regular"></td>
+                <td>
+                    <div class="formula">A = <div class="formula-right">
+                        <div class="formula-top">P x ap</div>
+                        <div>2</div></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p>Perímetro : </p>
+                        <input id="pa-perimeter" type="text" placeholder="Perímetro">
+                    </div>
+                    <div>
+                        <p>Apotema : </p>
+                        <input id="pa-apotema" type="text" placeholder="Apotema">
+                    </div>
+                </td>
+                <td><button id="pa-calc" data-calc="poligonArea"><span>Calcular </span></button></td>
+                <td>
+                    <p id="pa-answer">0</p>
                 </td>
             </tr>
         </table>
