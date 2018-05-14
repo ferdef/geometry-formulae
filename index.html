@@ -27,9 +27,9 @@
                 <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1445431624/contido/ud5/5313_imagen_teoria_area_cuadrado.png" alt="Cuadrado"></td>
                 <td>A = l x l</td>
                 <td>
-                    <input type="text" placeholder="Lado">
+                    <div><p>Lado : </p><input type="text" id="sa-side" placeholder="Lado"></div>
                 </td>
-                <td><button id="sa-calc">Calcular</button></td>
+                <td><button id="sa-calc" data-calc="squareArea"><span>Calcular </span></button></td>
                 <td>
                     <p id="sa-answer">0</p>
                 </td>
@@ -39,8 +39,14 @@
                 <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1445431624/contido/ud5/5312_imagen_teoria_area_rectangulo.png" alt="Rectángulo"></td>
                 <td>A = b x h</td>
                 <td>
-                    <input id="ra-base" type="text" placeholder="Base">
-                    <input id="ra-height" type="text" placeholder="Altura">
+                    <div>
+                        <p>Base : </p>
+                        <input id="ra-base" type="text" placeholder="Base">
+                    </div>
+                    <div>
+                        <p>Altura : </p>
+                        <input id="ra-height" type="text" placeholder="Altura">
+                    </div>
                 </td>
                 <td><button id="cs-calc">Calcular</button></td>
                 <td>
@@ -52,7 +58,10 @@
                 <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1463049472/contido/circulo.png" alt="Círculo"></td>
                 <td>A = π x r²</td>
                 <td>
-                    <input id="ca-radius" type="text" placeholder="Radio">
+                    <div>
+                        <p>Radio : </p>
+                        <input id="ca-radius" type="text" placeholder="Radio">
+                    </div>
                 </td>
                 <td><button id="cs-calc">Calcular</button></td>
                 <td>
