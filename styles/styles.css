@@ -131,3 +131,9 @@ input {
 .formula-top {
     border-bottom: 1px solid black;
 }
+
+.title-row {
+    border: 1px solid black;
+    background: #DDDDDD;
+    text-align: center;
+}
