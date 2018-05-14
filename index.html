@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Geometry</title>
+</head>
+<body>
+    <header>
+        <div>Fórmulas geométricas</div>
+    </header>
+    <div id="formulae">
+        <table class="center">
+            <tr>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Fórmula</th>
+                <th>Datos</th>
+                <th></th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Cuadrado</td>
+                <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1445431624/contido/ud5/5313_imagen_teoria_area_cuadrado.png" alt="Cuadrado"></td>
+                <td>A = l x l</td>
+                <td>
+                    <input type="text" placeholder="Lado">
+                </td>
+                <td><button id="sa-calc">Calcular</button></td>
+                <td>
+                    <p id="sa-answer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Rectángulo</td>
+                <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1445431624/contido/ud5/5312_imagen_teoria_area_rectangulo.png" alt="Rectángulo"></td>
+                <td>A = b x h</td>
+                <td>
+                    <input id="ra-base" type="text" placeholder="Base">
+                    <input id="ra-height" type="text" placeholder="Altura">
+                </td>
+                <td><button id="cs-calc">Calcular</button></td>
+                <td>
+                    <p id="ra-answer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Círculo</td>
+                <td><img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1463049472/contido/circulo.png" alt="Círculo"></td>
+                <td>A = π x r²</td>
+                <td>
+                    <input id="ca-radius" type="text" placeholder="Radio">
+                </td>
+                <td><button id="cs-calc">Calcular</button></td>
+                <td>
+                    <p id="ca-answer">0</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="scripts/formulae.js"></script>
+</body>
+</html>
