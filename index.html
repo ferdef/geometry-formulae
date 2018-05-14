@@ -23,6 +23,21 @@
                 <th>Resultado</th>
             </tr>
             <tr>
+                <td>Círculo</td>
+                <td><img src="assets/area_circulo.png" alt="Círculo"></td>
+                <td>A = π x r²</td>
+                <td>
+                    <div>
+                        <p>Radio : </p>
+                        <input id="ca-radius" type="text" placeholder="Radio">
+                    </div>
+                </td>
+                <td><button id="cs-calc" data-calc="circleArea"><span>Calcular </span></button></td>
+                <td>
+                    <p id="ca-answer">0</p>
+                </td>
+            </tr>
+            <tr>
                 <td>Cuadrado</td>
                 <td><img src="assets/area_cuadrado.png" alt="Cuadrado"></td>
                 <td>A = l x l</td>
@@ -54,18 +69,27 @@
                 </td>
             </tr>
             <tr>
-                <td>Círculo</td>
-                <td><img src="assets/area_circulo.png" alt="Círculo"></td>
-                <td>A = π x r²</td>
+                <td>Triángulo</td>
+                <td><img src="assets/area_triangulo.png" alt="Rectángulo"></td>
                 <td>
-                    <div>
-                        <p>Radio : </p>
-                        <input id="ca-radius" type="text" placeholder="Radio">
+                    <div class="formula">A = <div class="formula-right">
+                        <div class="formula-top">b x h</div>
+                        <div>2</div></div>
                     </div>
                 </td>
-                <td><button id="cs-calc" data-calc="circleArea"><span>Calcular </span></button></td>
                 <td>
-                    <p id="ca-answer">0</p>
+                    <div>
+                        <p>Base : </p>
+                        <input id="ta-base" type="text" placeholder="Base">
+                    </div>
+                    <div>
+                        <p>Altura : </p>
+                        <input id="ta-height" type="text" placeholder="Altura">
+                    </div>
+                </td>
+                <td><button id="ta-calc" data-calc="triangleArea"><span>Calcular </span></button></td>
+                <td>
+                    <p id="ta-answer">0</p>
                 </td>
             </tr>
         </table>

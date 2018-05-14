@@ -43,3 +43,14 @@ function circleArea() {
         alert("Introduce los valores necesarios para el cálculo");
     }
 }
+
+function triangleArea() {
+    const base = document.querySelector("#ta-base").value;
+    const height = document.querySelector("#ta-height").value;
+    const result = document.querySelector("#ta-answer");
+    if (base && height) {
+        result.innerHTML = ((base * height) / 2).toFixed(2);
+    } else {
+        alert("Introduce los valores necesarios para el cálculo");
+    }
+}

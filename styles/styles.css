@@ -87,6 +87,7 @@ input {
 
 #formulae td:nth-child(3) {
     font-style: italic;
+    width: 150px;
 }
 
 #formulae td:nth-child(4) div {
@@ -114,4 +115,19 @@ input {
     border-right: 1px solid black;
 }
 
+.formula {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.formula-right {
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formula-top {
+    border-bottom: 1px solid black;
+}
